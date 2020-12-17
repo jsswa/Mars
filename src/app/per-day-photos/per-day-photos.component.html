@@ -1,0 +1,11 @@
+<section class="container">
+  <div class="row">
+    <h2>Recherche d'images : </h2>
+    <input class="form-control" type="date" [(ngModel)]="date">
+    <button class="btn btn-danger" (click)="getFromApi()">Envoyer</button>
+  </div>
+  <ul class="list-group">
+    <app-list-images [photo]='mars'></app-list-images>
+  </ul>
+
+</section>

@@ -1,0 +1,8 @@
+<div class="container-fluid">
+  <div class="row">
+    <app-list-images-item class="" *ngFor="let marsPhotos of photo"
+                          [marsId]="marsPhotos.id"
+                          [marsPhoto]="marsPhotos.img_src">
+    </app-list-images-item>
+  </div>
+</div>
