@@ -1,0 +1,10 @@
+.search-form {
+  border: solid lightgrey 2px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.btn{
+  margin-top: 10px;
+}

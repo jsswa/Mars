@@ -15,5 +15,8 @@ export class GetMarsImagesService {
       .get<any>(this.api_url+dayStamp+'&api_key='+ this.api_key);
 
   }
+  getDayImage() {
+    return this.HttpClient
+      .get<any>(this.api_url+'2015-10-10'+'&api_key='+ this.api_key);
+  }
 }
-//this.api_url+date+'&api_key='+ this.api_key
