@@ -14,11 +14,15 @@ import { MeilleurePhotosComponent} from './meilleure-photos/meilleure-photos.com
 import { MyPhotosGalleryComponent } from './my-photos-gallery/my-photos-gallery.component';
 import {MyGalleryService} from './services/my-gallery.service';
 import { ListGalleryItemComponent } from './list-gallery-item/list-gallery-item.component';
+import { VideosComponent } from './videos/videos.component';
+import { ListVideosComponent } from './list-videos/list-videos.component';
+import { VideosItemComponent } from './videos-item/videos-item.component';
 
 const appRoutes: Routes = [
 
   { path: 'PerDayPhotos', component: PerDayPhotosComponent},
   { path: 'MeilleurePhotos', component: MeilleurePhotosComponent },
+  { path: 'Videos', component: VideosComponent},
 
   { path: '',
     redirectTo: '/PerDayPhotos',
@@ -35,6 +39,9 @@ const appRoutes: Routes = [
     MeilleurePhotosComponent,
     MyPhotosGalleryComponent,
     ListGalleryItemComponent,
+    VideosComponent,
+    ListVideosComponent,
+    VideosItemComponent,
   ],
   imports: [
     BrowserModule,
